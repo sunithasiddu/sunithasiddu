@@ -1,0 +1,8 @@
+list=[1,2,1,4]
+list1=[]
+for i in list:
+    n=list.count(i)
+    if n>1:
+        if list1.count(i)==0:
+            list1.append(i)
+print(list1)
